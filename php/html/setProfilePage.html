@@ -1,0 +1,20 @@
+<!DOCTYPE html>                                        
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">                              
+  <head>                                                                                         
+    <meta charset="UTF-8"/>                         
+  </head>
+	<body>
+		<h2>Editer mon profil :</h2>
+		
+		<div id="formSetProfile">
+					<label for="nomSetProfile">Nom :</label>
+							<input type="text" name="nomSetProfile" id="nomSetProfile"/>
+					<label for="presentationSetProfile">Presentation :</label>
+							<textarea rows="4" cols="50" type="text" name="presentationSetProfile" id="presentationSetProfile"></textarea>
+					<label for="passwordSetProfile">Mot de passe :</label>
+							<input type="password" name="passwordSetProfile" id="passwordSetProfile"/>
+					<button id="submitSetProfile" name="validSetProfile" onclick="setProfileOnClick()">Editer</button>
+		</div>
+		<div id="resultSetProfile"></div>
+	</body>
+</html>

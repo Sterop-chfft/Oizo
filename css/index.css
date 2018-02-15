@@ -1,0 +1,64 @@
+/* MAIN */
+html {
+	background-color: rgb(228, 243, 245) ;
+	color: black;
+	font-family: Helvetica;
+} 
+
+#formInscription,#formPostMessage,#resultInscription{
+    color:rgba(58, 129, 240, 1);
+}
+#formPostMessage{
+    text-align: center;
+    padding-right: 12%;
+}
+#accesProfil{
+    background-color: rgba(195, 233, 227, 0.84);
+    border-style: groove;
+    border-color:rgba(195, 233, 227, 0.84);
+    padding-left: 2%;
+}
+
+h2{
+     color:rgba(42, 93, 173, 1);
+} 
+
+#formLogin{
+    color:rgba(42, 93, 173, 1);
+}
+
+#profil{
+    float: left;    margin-left: 5%; margin-right: 15%;
+}
+
+#followed{
+margin-left:70%;
+}
+
+#follower{
+    margin-left: 70%;
+}
+
+.msg{
+    margin-left: 30%;
+    width: 30%;
+    border-style:groove;
+    border-width: 5px;
+    border-color: rgb(228, 243, 245);
+    background-color:rgb(242, 253, 255);
+    }
+
+
+#divMessage{
+    color:black;
+    text-align: center;
+}
+
+#divMessageProfil{
+	color:black;
+    text-align: center;
+}
+
+#findUser{
+    color:yellowgreen ;
+}

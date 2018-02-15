@@ -10,10 +10,23 @@ Une personne non-connecté voit l'ensemble des messages, mais ne peut en poster.
 
 ## Caractéristiques techniques
 
-Langages utilisés : PHP - JavaScript - HTML - CSS
-Création de Web Services. 
-Création de la base de donnée en PostgreSQL.
-Gestion de comptes d'utilisateurs.
+- Langages utilisés : PHP - JavaScript - HTML - CSS.
+- Création de la base de données en PostgreSQL.
+- Gestion de comptes d'utilisateurs.
 
-
+### Web Services disponibles en JSON :
+  - uploadAvatar : permet de redimenstionner et de saugarder une image de profil (48px et 256px).
+  - setProfile : update le profil.
+  - postMessage : rajoute le message dans la base de données.
+  - logout : s'indentifier.
+  - login : se déconnecter.
+  - getAvatar : renvoi l'image de profil de l'utilisateur (2 tailles disponibles).
+  - unfollow : enlever un utilisateur à la liste des follows.
+  - follow : rajouter un utilisateur à la liste des follows.
+  - findUsers : recherche un utilisateur.
+  - findMessages : messages que peut voir l'utilisateur connecté.
+  - createUser : enregistre un nouvel utilisateur.
+  
+  
+  
 Projet réalisé dans le cadre de la Licence Informatique de Lille1 (FIL) - 2017.

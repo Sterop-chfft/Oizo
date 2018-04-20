@@ -9,7 +9,7 @@ class Messages {
 
 
 	public function __construct($id){		
-		$connexion= new PDO("pgsql:host=localhost;dbname=soltysiak","soltysiak","s160692s");			
+		$connexion= new PDO("pgsql:host=localhost;dbname=XXXXXX","XXXXXXX","XXXXXXX");			
 		$req = $connexion->prepare("select * from messages where id=:id");
 		$req->bindParam(':id', $id);				
 		$req->execute();
